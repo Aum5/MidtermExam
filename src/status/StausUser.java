@@ -11,11 +11,11 @@ package status;
  */
 public class StausUser 
 {
-   public void statusDetail(String code)
+   public void statusDetail(enum code)
 {
 switch(code.toUpperCase())
         {
-        case "ZERO": System.out.println("REJECTED");
+        case : System.out.println("REJECTED");
         break;
         case "ONE": System.out.println("PENDING");
         break;
